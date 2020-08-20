@@ -2,6 +2,7 @@ import React from 'react'
 import plant_data from './shop.data.js'
 import ProductCollection from '../../components/product-collection/product-collection.component'
 
+
 class Shop extends React.Component {
 
     constructor() {
@@ -12,20 +13,18 @@ class Shop extends React.Component {
         };
     }
     render () {
-
         const x = this.state.collections; 
-
         return(
             <div className='shop-page'>
-               {x.map(({id, title, items, routeName}) => (
-                    <ProductCollection key={id} id={id} title={title} items={items} route={routeName}/>
+                
+                {x.map(({id, ...otherCollectionProps}) => (
+                    <ProductCollection key={id} {...otherCollectionProps}/>
                 ))
                }     
             </div>
-        )
-        
+        )  
     }
 }
-export default Shop
+export default Shop;
 
 

@@ -1,17 +1,17 @@
 import React from 'react'
 import './product-collection.component.styles.scss'
+import CollectionItem from '../../components/collection-item/collection-item.component'
 
-
-const ProductCollection = ({id, title, items}) => (
-    <div className='productCollection'>
-        <h1>Products</h1>    
-        <h2 key={id}>{title}</h2> 
-        {items
+const ProductCollection = ({title, items}) => (
+    <div className='product-menu'>
+        <h1 className='title'>{title}</h1>
+        <div className='preview'>    
+            {items
             .filter((items, index) => index<4)
-            .map(({name, id}) => ( 
-                    <h3 key={id}>{name}</h3>
-                )    
-            )}    
+            .map(({name, id, title, imageUrl, price}) => ( 
+                    <CollectionItem key={id} title={title} name={name} imageUrl={imageUrl} price={price}/>
+            ))}    
+        </div>
     </div>
 )
 

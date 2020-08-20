@@ -1,31 +1,31 @@
 const plant_data = [
         {
           id: 1,
-          title: 'Hats',
+          title: 'Indoor Plants',
           routeName: 'hats',
           items: [
             {
               id: 1,
-              name: 'Brown Brim',
-              imageUrl: 'https://i.ibb.co/ZYW3VTp/brown-brim.png',
+              name: 'Monstera Deliciosa',
+              imageUrl: 'https://images.pexels.com/photos/2001154/pexels-photo-2001154.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
               price: 25
             },
             {
               id: 2,
-              name: 'Blue Beanie',
-              imageUrl: 'https://i.ibb.co/ypkgK0X/blue-beanie.png',
+              name: 'Green Cactus',
+              imageUrl: 'https://i2.pickpik.com/photos/59/250/519/cactus-plant-plant-rack-green-preview.jpg',
               price: 18
             },
             {
               id: 3,
-              name: 'Brown Cowboy',
-              imageUrl: 'https://i.ibb.co/QdJwgmp/brown-cowboy.png',
+              name: 'Sansevieria',
+              imageUrl: 'https://c1.wallpaperflare.com/preview/119/382/448/sansevieria-plant-nature-love.jpg',
               price: 35
             },
             {
               id: 4,
-              name: 'Grey Brim',
-              imageUrl: 'https://i.ibb.co/RjBLWxB/grey-brim.png',
+              name: 'Kentia Palm',
+              imageUrl: 'https://storage.needpix.com/rsynced_images/plant-1368347836475.jpg',
               price: 25
             },
             {
@@ -62,7 +62,7 @@ const plant_data = [
         },
         {
           id: 2,
-          title: 'Sneakers',
+          title: 'Outdoor Plants',
           routeName: 'sneakers',
           items: [
             {
@@ -117,7 +117,7 @@ const plant_data = [
         },
         {
           id: 3,
-          title: 'Jackets',
+          title: 'Seeds',
           routeName: 'jackets',
           items: [
             {
@@ -154,7 +154,7 @@ const plant_data = [
         },
         {
           id: 4,
-          title: 'Womens',
+          title: 'Planters',
           routeName: 'womens',
           items: [
             {
@@ -203,7 +203,7 @@ const plant_data = [
         },
         {
           id: 5,
-          title: 'Mens',
+          title: 'Garden Accessories',
           routeName: 'mens',
           items: [
             {
