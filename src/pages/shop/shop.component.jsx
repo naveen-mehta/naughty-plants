@@ -1,7 +1,7 @@
 import React from 'react'
 import plant_data from './shop.data.js'
 import ProductCollection from '../../components/product-collection/product-collection.component'
-
+import './shop.component.styles.scss'
 
 class Shop extends React.Component {
 

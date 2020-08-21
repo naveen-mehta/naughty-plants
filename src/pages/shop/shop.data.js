@@ -67,8 +67,8 @@ const plant_data = [
           items: [
             {
               id: 10,
-              name: 'Adidas NMD',
-              imageUrl: 'https://i.ibb.co/0s3pdnc/adidas-nmd.png',
+              name: 'Four leaf clover',
+              imageUrl: 'https://i2.pickpik.com/photos/109/971/660/klee-luck-four-leaf-clover-lucky-charm-preview.jpg',
               price: 220
             },
             {
@@ -123,7 +123,7 @@ const plant_data = [
             {
               id: 18,
               name: 'Black Jean Shearling',
-              imageUrl: 'https://i.ibb.co/XzcwL5s/black-shearling.png',
+              imageUrl: 'https://i2.pickpik.com/photos/916/339/789/flowers-sowing-growth-seedlings-preview.jpg',
               price: 125
             },
             {
