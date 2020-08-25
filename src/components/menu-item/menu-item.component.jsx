@@ -12,3 +12,5 @@ import './menu-item.component.styles.scss';
 )
 
 export default MenuItem; 
+
+
